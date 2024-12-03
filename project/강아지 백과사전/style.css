@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans KR", serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+nav {
+    text-align: center;
+
+    padding: 40px;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#menu {
+    width: 70%;
+
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+#top {
+
+    background-color: rebeccapurple;
+
+}
+
+#menu_background {
+    background-color: #f1f3f5;
+    box-shadow: 0 2px 2px -2px #333;
+}
+
+#menu {
+    
+    margin: 0 auto;
+
+}
+
+#menu > div {
+    
+    margin-right: 20px;
+    padding-top: 10px;
+    float: right;
+    
+}
+
+#menu a {
+    text-decoration-line:none;
+    color: #30302e;
+}
+
+#article_base {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#menu > div:hover {
+    background-color:#d9d9d9;
+    border-radius: 8px;
+    margin-top: 2px;
+}
+
+
+#article {
+    margin: 20px auto;
+    margin-right: 40px;
+    float:left;
+    width: 350px;
+
+    background-color: white;
+    height: 450px;
+    box-shadow: 0 3px 7px rgba(226, 226, 226, 0.25), 0 5px 5px rgba(231, 231, 231, 0.22);
+
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+    text-align: center;
+    text-align: bottom;
+}
+
+#article_text {
+    margin-top: 10px;
+    font-size: 14px;
+    color:#a0a0a0;
+    font-weight: 400;
+}
+
+
+
+#article > img {
+    margin-top:0px;
+    width: 100%;
+    height: 60%;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 30px;
+}
+
+
+#article:hover {
+    box-shadow: 0 6px 14px rgba(151, 151, 151, 0.12), 0 3px 6px rgba(151, 151, 151, 0.24);
+    outline: solid 1px rgb(234, 223, 245);
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+
+/*
+    게스트북 페이지
+*/

@@ -1,0 +1,28 @@
+h2 {
+    color : blue;
+}
+
+.good {
+    color: red;
+
+}
+
+#hello {
+    color: gray;
+}
+
+body {
+    font-family: 'Orbit', sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/floral-background-with-leaves_23-2148877190.jpg?t=st=1732857391~exp=1732860991~hmac=9c0b0a4d72f96d4d19bc8c76e8cc1604ab460c282293563cbcd6658aa90c3af1&w=1380);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    opacity : 0.5;
+}
+
+.desc-box{
+    box-shadow: 5px 5px #333;
+}
