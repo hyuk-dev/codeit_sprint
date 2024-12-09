@@ -1,13 +1,60 @@
 *{
     margin:0;
     padding: 0;
-}
-
-@font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
 
 }
+
+html {
+    font-size: 60%;
+}
+
+@media (max-width: 1350px) {
+    html {
+        font-size: 50%;
+    }
+
+    .mainSectionRightImg {
+        width: 600px;
+    }
+
+    .img {
+        width: 450px;
+    }
+
+    .reverseImg {
+        width: 450px;
+    }
+
+    .mainSectionButton {
+        width: 300px;
+    }
+
+
+}
+
+@media (max-width: 1100px) {
+    html {
+        font-size: 40%;
+    }
+
+    .mainSectionButton {
+        width: 200px;
+    }
+
+    .mainSectionRightImg {
+        width: 400px;
+    }
+
+    .img {
+        width: 350px;
+    }
+
+    .reverseImg {
+        width: 350px;
+    }
+
+}
+
 
 .headerColor{
     background-color: #FFFFFF;
@@ -49,7 +96,9 @@
     bottom:50px;
     font-family: 'Pretendard-Regular';
     font-weight: 700;
-    font-size: 40px;
+    font-size: 4.0rem;
+    text-wrap: nowrap;
+    
 }
 
 .mainSection {
@@ -80,14 +129,13 @@
 .mainSectionRightImg {
     position: relative;
     top: 9px;
-    width:100%;
-    min-width: 500px;
+
     
 }
 
 .servSectionBoundary {
-    height: 444px;
-    width: 988px;
+
+    max-width: 1050px;
     background-color: #FCFCFC;
     margin: 130px auto;
     
@@ -101,12 +149,14 @@
 
 .reverseImg {
     position: relative;
-    left:40px;
+
+    left: 30px;
 }
 
 .img {
     position: relative;
-    left:30px;
+
+    left: 20px;
 }
 
 .servSectionLeftReverse {
@@ -127,7 +177,8 @@
     gap: 40px;
     font-family: 'Pretendard-Regular';
     position: relative;
-    left: 60px;
+    margin-left: 50px;
+
 }
 
 .servSectionRightReverse {
@@ -143,17 +194,18 @@
 
 .servSectionSmallTitle {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #3692FF;
 }
 
 .servSectionBigTitle {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 4.0rem;
     color: #374151;
 }
 
 .servSectionArticle {
+    font-family: 'Pretendard-Regular';
     font-weight: 500;
     font-size: 24px;
     color: #374151;
@@ -169,7 +221,7 @@
 
     font-family: 'Pretendard-Regular';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.6rem;
     margin: 0 auto;
     max-width: 1920px;
 }
